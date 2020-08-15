@@ -1,0 +1,56 @@
+#board {
+    display: flex;
+    width: 1125px;
+    position: relative;
+    top: -80px;
+}
+
+#board ul {
+    width: 75px;
+    height: 80px;
+}
+
+#board ul img {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+#board ul.highlight {
+    box-shadow: 0 0 0 3px green inset;
+}
+
+div.inline {
+    display: flex;
+}
+
+#tile-holder {
+    background-image: url(../resources/scrabble-tile-holder-406774_640.png);
+    background-size: contain;
+    width: 640px;
+    height: 182px;
+}
+
+#tile-holder li {
+    float: left;
+    position: relative;
+    top: 50px;
+    left: 45px;
+    padding: 0 6px;
+}
+
+#tile-holder li img {
+    width: 70px;
+    height: 70px;
+    cursor: move;
+}
+
+#scoreboard {
+    font-family: "Times New Roman", Times, serif;
+}
+
+.custom-state-active {
+    color: grey;
+}
